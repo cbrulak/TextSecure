@@ -53,6 +53,9 @@ public class ApnDefaults {
             // UK giffgaff -Tested
             put("23410", new MmsConnectionParameters("http://mmsc.mediamessaging.co.uk:8002", "193.113.200.195", "8080"));
 
+            // CA koodo -Tested
+            //put("302220", new MmsConnectionParameters("http://alisredirect.net/proxy/koodo/mmsc", "74.49.0.18", "80"));
+
           }};
 
   public static MmsConnectionParameters getMmsConnectionParameters(Context context) {
